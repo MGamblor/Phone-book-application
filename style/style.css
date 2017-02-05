@@ -1,0 +1,122 @@
+html,body{
+    margin:0;
+    height: 100%;
+}
+
+body {
+	padding-top: 50px;
+	background: #f2f2f2;
+}
+
+.navbar .navbar-brand {
+	font-weight: bold;
+	letter-spacing: -1px;
+	font-size: 20px;
+	color: #dd5638;
+}
+
+.form-control {
+    border-radius: 4px;
+}
+
+#search {
+    height: 41px; 
+    border-radius: 4px 0px 0px 4px;
+}
+
+@media screen and (max-width: 400px) {
+    #logo {
+        display: block;
+        margin: auto;
+    }
+    
+    #search-bar,label {
+        width: 100%;
+    }
+    
+    #search {
+        border-radius: 4px;
+        margin: 0px 0px 5px 0px;
+        width: 100%;
+    }
+
+    #search-button {
+        border-radius: 4px;
+        margin: 0px 0px 10px 15px; 
+        width: 95%;
+    }
+    
+    .thumbnail {
+        display: block;
+        margin: auto;
+    }
+}
+
+.thumbnail {
+	border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.btn-circle {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.rounded {
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  #addcontact { 
+      display: none; 
+    }   /* hide it elsewhere */
+}
+
+.panel-default {
+    border-color: #ccc;
+}
+
+.panel-default>.panel-heading {
+    color: black;
+    background-color: #ccc;
+    border-color: #dddddd;
+}
+
+.error {
+    color: red;
+}
+
+/*
+##################################################
+#                Sticky Footer                   #
+##################################################
+*/
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+	margin-bottom: -60px; 
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.footer, .page-wrap:after {
+  /* .push must be the same height as footer */
+	height: 60px;
+    padding: 18px 0;
+    margin: 0;
+}
+
+.copyright { 
+    color: #fff; 
+    text-align: center; 
+}
+
+
+
